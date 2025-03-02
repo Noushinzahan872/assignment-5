@@ -16,7 +16,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
     
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Fix Mobile Button Issue"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task Fix Mobile Button Issue at: "+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -47,7 +47,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
            
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Add Dark Mode"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task Add Dark Mode at: "+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -78,7 +78,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                    
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Optimize Home page "+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task Optimize Home page at:  "+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -108,7 +108,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                            
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Add new emoji 🤲"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task Add new emoji 🤲at: "+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -138,7 +138,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                    
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at:Integrate OpenAI API"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task Integrate OpenAI API at: "+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -166,19 +166,17 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                              taskCountElement.innerText=currentTaskCount - 1;
                                         
                                            completedCountElement.innerText=currentCompletedCount + 1;
-                                        }
-                                      
-
-                                          //   if (currentTaskCount== 0) {
-                                          //   alert(" Congratulations! You have completed all your tasks.")
-                                            
-                                          //  }
+                                           
+                                            if (currentTaskCount-1=== 0) {
+                                             alert(" Congratulations! You have completed all your tasks.");
+                                            }
+                                          }
         
                 
 
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at:Improving Job searching"
+   newParagraph.textContent="you have completed a task Improving Job searching at: "
 +new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
@@ -214,10 +212,7 @@ document.getElementById("theme-btn").addEventListener("click", () => {
 document.getElementById("date").innerText = today;
 
 
-// if (currentTaskCount === 0) {
-//     alert(" Congratulations! You have completed all your tasks.")
-    
-//   }
+
 
                                        
     
