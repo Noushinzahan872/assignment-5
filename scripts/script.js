@@ -47,7 +47,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
            
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Add Pay Success Modal"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Add Dark Mode"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -78,7 +78,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                    
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Add new reaction 🤲"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Optimize Home page "+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -108,7 +108,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                            
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Fix Video Loading Issue"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Add new emoji 🤲"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -138,7 +138,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                    
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at:Integrate AI search"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at:Integrate OpenAI API"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -178,7 +178,8 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
 
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at :Review Ami Probashi Site"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at:Improving Job searching"
++new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
