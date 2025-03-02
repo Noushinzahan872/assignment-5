@@ -164,15 +164,15 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                        
                                         if(currentTaskCount>0){           
                                              taskCountElement.innerText=currentTaskCount - 1;
-                                        }
-
-                          
+                                        
                                            completedCountElement.innerText=currentCompletedCount + 1;
+                                        }
+                                      
 
-                                          //  if ( currentTaskCount=== 0) {
+                                          //   if (currentTaskCount== 0) {
                                           //   alert(" Congratulations! You have completed all your tasks.")
                                             
-                                          // }
+                                          //  }
         
                 
 
@@ -195,16 +195,6 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                         })
 
                                         
-
-    // document.getElementById("clear-history").addEventListener("click",function () {
-    //   activityLog.textContent='';
-       
-    // });
-
-
-     
-
-
 
 
      
