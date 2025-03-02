@@ -24,6 +24,11 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
 
        this.disabled=true;
        this.style.opacity="0.5";
+
+       document.getElementById("clear-history").addEventListener("click",function () {
+        activityLog.textContent='';
+         
+      });
       
      })
 
@@ -50,6 +55,11 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
        
               this.disabled=true;
               this.style.opacity="0.5";
+
+              document.getElementById("clear-history").addEventListener("click",function () {
+                activityLog.textContent='';
+                 
+              });
              
             })
 
@@ -76,6 +86,11 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                
                       this.disabled=true;
                       this.style.opacity="0.5";
+
+                      document.getElementById("clear-history").addEventListener("click",function () {
+                        activityLog.textContent='';
+                         
+                      });
                      
                     })
                     document.getElementById("complete-btn-4").addEventListener("click",function(){
@@ -101,6 +116,11 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                        
                               this.disabled=true;
                               this.style.opacity="0.5";
+
+                              document.getElementById("clear-history").addEventListener("click",function () {
+                                activityLog.textContent='';
+                                 
+                              });
                              
                             })
                             document.getElementById("complete-btn-5").addEventListener("click",function(){
@@ -126,6 +146,10 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                
                                       this.disabled=true;
                                       this.style.opacity="0.5";
+
+        document.getElementById("clear-history").addEventListener("click",function () {
+        activityLog.textContent='';   
+                                      });                    
                                      
                                     })
 
@@ -161,14 +185,23 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                    
                                            this.disabled=true;
                                            this.style.opacity="0.5";
+                                           
+    document.getElementById("clear-history").addEventListener("click",function () {
+      activityLog.textContent='';
+       
+    });
+
                                         })
 
                                         
 
-    document.getElementById("clear-history").addEventListener("click",function () {
-        activityLog.textContent = ""
-        // alert("hi")
-     });
+    // document.getElementById("clear-history").addEventListener("click",function () {
+    //   activityLog.textContent='';
+       
+    // });
+
+
+     
 
 
 
