@@ -16,7 +16,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
     
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Fix Mobile Button Issue"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -42,7 +42,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
            
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Add Pay Success Modal"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -68,7 +68,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                    
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Add new reaction 🤲"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -93,7 +93,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                            
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Fix Video Loading Issue"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -118,7 +118,7 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                    
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at:Integrate AI search"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -139,21 +139,22 @@ document.getElementById("complete-btn-1").addEventListener("click",function(){
                                         let currentCompletedCount=parseInt(completedCountElement.innerText);
                                        
                                         if(currentTaskCount>0){           
-                                            taskCountElement.innerText=currentTaskCount - 1;
-                                                    }
+                                             taskCountElement.innerText=currentTaskCount - 1;
+                                        }
+
                           
                                            completedCountElement.innerText=currentCompletedCount + 1;
 
-                                           if ( currentTaskCount=== 0) {
-                                            alert(" Congratulations! You have completed all your tasks.")
+                                          //  if ( currentTaskCount=== 0) {
+                                          //   alert(" Congratulations! You have completed all your tasks.")
                                             
-                                          }
+                                          // }
         
                 
 
    let activityLog = document.getElementById("activity-log"); 
    let newParagraph=document.createElement("p");
-   newParagraph.textContent="you have completed a task at"+new Date().toLocaleTimeString();
+   newParagraph.textContent="you have completed a task at :Review Ami Probashi Site"+new Date().toLocaleTimeString();
 
    newParagraph.style.color="green";
    activityLog.appendChild(newParagraph) ;                       
@@ -189,10 +190,10 @@ document.getElementById("theme-btn").addEventListener("click", () => {
 document.getElementById("date").innerText = today;
 
 
-if (task-count === 0) {
-    alert(" Congratulations! You have completed all your tasks.")
+// if (currentTaskCount === 0) {
+//     alert(" Congratulations! You have completed all your tasks.")
     
-  }
+//   }
 
                                        
     
